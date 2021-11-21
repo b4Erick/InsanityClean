@@ -8,11 +8,7 @@
 }
 
 body {
-    background-image: url(../img/textura.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: rgb(24, 24, 24);
 }
 
 header {
