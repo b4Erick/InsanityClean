@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Insanity Clean</title>
 
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/986b2a84ed.js" crossorigin="anonymous"></script>
-
+    <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="css/estilos.css">
+
+
 
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 </head>
+
 <body>
 
     <!--Header - menu-->
@@ -27,10 +47,18 @@
 
                 <nav>
                     <ul>
-                        <li><a href="index.html"> <i class="fas fa-home"></i>Inicio</a></li>
-                        <li><a href="#"> <i class="fas fa-users"> </i>¿Quiénes somos?</a></li>
-                        <li><a href="#"> <i class="fas fa-headset"></i>Contacto</a></li>
-                        <li><a href="#"> <i class="fas fa-award"></i>Lealtad</a></li>
+                        <li>
+                            <a href="index.html"> <i class="fas fa-home"></i>Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#"> <i class="fas fa-users"> </i>¿Quiénes somos?</a>
+                        </li>
+                        <li>
+                            <a href="#"> <i class="fas fa-headset"></i>Contacto</a>
+                        </li>
+                        <li>
+                            <a href="#"> <i class="fas fa-award"></i>Lealtad</a>
+                        </li>
                     </ul>
                 </nav>
 
@@ -48,122 +76,167 @@
 
     <div class="container-all" id="move-content">
 
-    
-    <div class="container-cover">
-        <div class="container-info-cover">
-            <p>Nuevos servicios</p>
-            <h1>Nuevas experiencias</h1>
-        </div>
-    </div>
 
-    <div class="container-content">
-        <div class="container-slider">
-
-            <input type="radio" id="1" name="image-slide" hidden/>
-            <input type="radio" id="2" name="image-slide" hidden/>
-            <input type="radio" id="3" name="image-slide" hidden/>
-    
-            <div class="slide">
-    
-                <div class="item-slide">
-                    <img src="img/img1.jpg">
-                </div>
-    
-                <div class="item-slide">
-                    <img src="img/img2.jpg">
-                </div>
-    
-                <div class="item-slide">
-                    <img src="img/img3.jpg">
-                </div>
-    
-            </div>
-    
-            <div class="pagination">
-               
-                <label class="pagination-item" for="1">
-                    <img src="img/img1.jpg">
-                </label>
-                
-                <label class="pagination-item" for="2">
-                    <img src="img/img2.jpg">
-                </label>
-                
-                <label class="pagination-item" for="3">
-                    <img src="img/img3.jpg">
-                </label>
-            </div>
-        </div>  
-        <h2 class="titulo-servicios">Servicios</h2>
-        <div class="container-cartas">
-            
-            <div class="cartas" id="carta-1">
-                <img src="img/lavacar.jpg" alt="">
-                <div class="linea-izquierda">
-                    <p>Lavacar</p>
-                </div>
-            </div>
-            <div class="cartas" id="carta-2">
-                <img src="img/detailing.jpg" alt="">
-                <div class="linea-derecha">
-                    <p>Detailing</p>
-                </div>
-            </div>
-            <div class="cartas" id="carta-3">
-                <img src="img/lubricentro.jpg" alt="">
-                <div class="linea-izquierda">
-                    <p>Lubricentro</p>
-                </div>
-            </div>
-            <div class="cartas" id="carta-4">
-                <img src="img/mecanica.jpg" alt="">
-                <div class="linea-derecha">
-                    <p>Mecánica rápida</p>
-                </div>
-            </div>
-            <div class="cartas" id="carta-5">
-                <img src="img/llantera.jpeg" alt="">
-                <div class="linea-izquierda">
-                    <p>Llantera</p>
-                </div>
-            </div>
-            <div class="cartas" id="carta-6">
-                <img src="img/cafeteria.jpeg" alt="">
-                <div class="linea-derecha">
-                    <p>Cafetería</p>
-                </div>
-            </div>
-            <div class="cartas" id="carta-7">
-                <img src="img/domicilio.jpg" alt="">
-                <div class="linea-izquierda">
-                    <p>Servicio a domicilio</p>
-                </div>
+        <div class="container-cover">
+            <div class="container-info-cover">
+                <p>Nuevos servicios</p>
+                <h1>Nuevas experiencias</h1>
             </div>
         </div>
-    </div>
 
-    <div class="container-footer">	
 
-        <footer>
-            <hr id="hr2">
-            <div class="logo-footer">
-                <img src="img/logo.png" alt="">
+        <div class="container-content">
+
+
+            <!--Slider-->
+
+            <div class="container-slider">
+
+                <input type="radio" id="1" name="image-slide" hidden/>
+                <input type="radio" id="2" name="image-slide" hidden/>
+                <input type="radio" id="3" name="image-slide" hidden/>
+
+                <div class="slide">
+
+                    <div class="item-slide">
+                        <img src="img/img1.jpg">
+                    </div>
+
+                    <div class="item-slide">
+                        <img src="img/img2.jpg">
+                    </div>
+
+                    <div class="item-slide">
+                        <img src="img/img3.jpg">
+                    </div>
+
+                </div>
+
+                <div class="pagination">
+
+                    <label class="pagination-item" for="1">
+                    <img src="img/img1.jpg">
+                </label>
+
+                    <label class="pagination-item" for="2">
+                    <img src="img/img2.jpg">
+                </label>
+
+                    <label class="pagination-item" for="3">
+                    <img src="img/img3.jpg">
+                </label>
+                </div>
             </div>
 
-            <div class="redes-footer">
-                <a href="#"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
-                <a href="#"><i class="fab fa-instagram icon-redes-footer"></i></a>
+            <!--Fin de Slider-->
+
+
+            <h2 class="titulo-servicios">Servicios</h2>
+            <div class="container-cartas">
+
+                <div class="cartas" id="carta-1">
+                    <img src="img/lavacar.jpg" alt="">
+                    <div class="contenedor-texto-cartas">
+                        <p>
+                            <a href="servicios/servicioLavacar.html">Lavacar</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="cartas" id="carta-2">
+                    <img src="img/detailing.jpg" alt="">
+                    <div class="contenedor-texto-cartas">
+                        <p>
+                            <a href="servicios/servicioDetailing.html">Detailing</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="cartas" id="carta-3">
+                    <img src="img/lubricentro.jpg" alt="">
+                    <div class="contenedor-texto-cartas">
+                        <p>
+                            <a href="servicios/servicioLubricentro.html">Lubricentro</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="cartas" id="carta-4">
+                    <img src="img/mecanica.jpg" alt="">
+                    <div class="contenedor-texto-cartas">
+                        <p>
+                            <a href="servicios/servicio.MecanicaRapida.html">Mecánica rápida</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="cartas" id="carta-5">
+                    <img src="img/llantera.jpeg" alt="">
+                    <div class="contenedor-texto-cartas">
+                        <p>
+                            <a href="servicios/servicioLlantera.html">Llantera</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="cartas" id="carta-6">
+                    <img src="img/cafeteria.jpeg" alt="">
+                    <div class="contenedor-texto-cartas">
+                        <p>
+                            <a href="servicios/servicioCafeteria.html">Cafetería</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="cartas" id="carta-7">
+                    <img src="img/reparaciones.jpg" alt="">
+                    <div class="contenedor-texto-cartas">
+                        <p>
+                            <a href="#">Reparaciones</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="cartas" id="carta-8">
+                    <img src="img/productos.jpg" alt="">
+                    <div class="contenedor-texto-cartas">
+                        <p>
+                            <a href="#">Productos</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="cartas" id="carta-9">
+                    <img src="img/domicilio.jpg" alt="">
+                    <div class="contenedor-texto-cartas">
+                        <p>
+                            <a href="servicios/servicioDomilio.html">Servicio a domicilio</a>
+                        </p>
+                    </div>
+                </div>
             </div>
+        </div>
 
-            
-            <hr>
-            <h4>© 2021 InsanityClean - Todos los Derechos Reservados</h4>
+        <!--Footer-->
 
-        </footer>
+        <div class="container-footer">
+
+            <footer>
+                <hr id="hr2">
+                <div class="logo-footer">
+                    <img src="img/logo.png" alt="">s
+                </div>
+
+                <div class="redes-footer">
+                    <a href="https://www.facebook.com/pages/category/Product-Service/Insanity-Clean-107088711162408/"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
+                    <a href="https://www.instagram.com/insanityclean/"><i class="fab fa-instagram icon-redes-footer"></i></a>
+                </div>
+
+
+                <hr>
+                <h4>© 2021 InsanityClean - Todos los Derechos Reservados</h4>
+
+            </footer>
+        </div>
+
+        <!--Fin de Footer-->
+
+
     </div>
-
-</div>
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
