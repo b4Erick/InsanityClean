@@ -8,7 +8,7 @@
 }
 
 body {
-    background: rgb(24, 24, 24);
+    background: rgb(255, 255, 255);
 }
 
 header {
@@ -104,11 +104,11 @@ header {
 /*Portada*/
 
 .container-cover {
-    width: 100%;
+    width: 65%;
     height: 500px;
     position: relative;
     margin-top: 80px;
-    background-image: url(../../img/lavacar.jpg);
+    background-image: url(../img/banner.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -167,6 +167,7 @@ header {
     margin-top: 40px;
     display: flex;
     justify-content: center;
+    float: left;
 }
 
 article {
@@ -198,7 +199,7 @@ article h1 {
 article p {
     margin-top: 20px;
     font-size: 18px;
-    color: #ffffff;
+    color: #3c3c3c;
 }
 
 article img {
@@ -252,9 +253,8 @@ article img {
 .container-footer {
     width: 100%;
     padding: 40px 0;
-    background: rgba(24, 24, 24, 0.541);
+    background: rgb(24, 24, 24);
     margin-top: 40px;
-    box-shadow: 0 4px 10px 10px rgb(25, 25, 25);
 }
 
 .container-footer footer {
@@ -404,4 +404,4 @@ footer .redes-footer .fa-instagram:hover {
     .container-aside {
         flex-wrap: wrap;
     }
-}o
+}

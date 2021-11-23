@@ -108,7 +108,7 @@ header {
     height: 500px;
     position: relative;
     margin-top: 80px;
-    background-image: url(../../img/lavacar.jpg);
+    background-image: url(../img/banner.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -166,7 +166,7 @@ header {
     margin: auto;
     margin-top: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 article {
@@ -198,7 +198,7 @@ article h1 {
 article p {
     margin-top: 20px;
     font-size: 18px;
-    color: #ffffff;
+    color: #3c3c3c;
 }
 
 article img {
@@ -210,7 +210,7 @@ article img {
 /*Aside de los articulos de relacionados*/
 
 .container-aside aside {
-    width: 320px;
+    width: 100%;
     border-right: 6px;
     box-shadow: 0 0 20px -20px black;
     border-radius: 6px;
@@ -252,9 +252,8 @@ article img {
 .container-footer {
     width: 100%;
     padding: 40px 0;
-    background: rgba(24, 24, 24, 0.541);
+    background: rgb(24, 24, 24);
     margin-top: 40px;
-    box-shadow: 0 4px 10px 10px rgb(25, 25, 25);
 }
 
 .container-footer footer {
@@ -343,10 +342,10 @@ footer .redes-footer .fa-instagram:hover {
     }
     .container-aside {
         display: flex;
-        justify-content: center;
+        justify-content: left;
     }
     .container-aside aside {
-        max-width: 300px;
+        max-width: 100%;
         margin: 10px;
     }
 }
@@ -404,4 +403,4 @@ footer .redes-footer .fa-instagram:hover {
     .container-aside {
         flex-wrap: wrap;
     }
-}o
+}
