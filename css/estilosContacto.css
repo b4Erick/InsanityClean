@@ -175,7 +175,7 @@ header {
     color: #ffffff;
     display: flex;
     align-items: center;
-    text-align: center;
+    text-align: justify;
     margin-left: 0;
 
 }
@@ -309,6 +309,9 @@ footer .redes-footer .fa-instagram:hover {
     }
     .portada{
         width: 100%;
+    }
+    .texto{
+        width: 280px;
     }
 
     .banner{
