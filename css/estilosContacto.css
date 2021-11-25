@@ -314,6 +314,10 @@ footer .redes-footer .fa-instagram:hover {
         width: 280px;
     }
 
+    #icon-map{
+        width: 45px;
+    }
+
     .banner{
             background-color: rgba(24, 24, 24, 0.836);
     }
